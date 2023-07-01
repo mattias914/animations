@@ -1,0 +1,50 @@
+.llamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #00161C;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.llamada__titulo {
+    font-family: 'Montserrat', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.llamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.llamada__boton {
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .llamada {
+        background-image: url(../img/Bigthiccbooty_un_producto_en_una_pagina_web_d4c07477-11ff-436f-a23f-e197b06adee8.png);
+        background-size: cover;
+        padding-top: 8.25rem;
+        color: #00161C;
+    }
+
+    .llamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .llamada__texto{
+        max-width: 600px;
+    }
+}
